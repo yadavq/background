@@ -1,0 +1,116 @@
+body{
+	background: linear-gradient(to right, yellow, #448959);
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+h1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Coda Caption', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 200px;
+}
+h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Coda Caption', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 200px;
+}
+
+#content{
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+#nav{
+	width:500px;
+	height: 40px;
+	font-size: 40px;
+	font-family: 'Satisfy', cursive;
+	float: left;
+	background-color: #b7d376;
+	padding-bottom: 30px;
+}
+.posts{
+	width:200px;
+	float: left;
+}
+.about{
+	width:100px;
+	float: right;
+}
+.social{
+	width:200px;
+	float:right;
+}
+#main{
+	width:1200px;
+	padding:25px;
+
+}
+#write{
+	width: 400px;
+	float: left;
+	font-size: 25px;
+	font-family: 'Lobster Two', cursive;
+}
+#write2{
+	width: 400px;
+	float: left;
+	font-size: 25px;
+	font-family: 'Lobster Two', cursive;
+}
+#image{
+	width:700px;
+	float:right;
+	transition: all 1s;
+}
+#image:hover{
+	transform: scale(1.1);
+}
+#img{
+	margin-left:200px;
+	margin-right: auto;
+	margin-top: 700px;
+	transition: all 1s;
+}
+#img:hover{
+	transform: scale(1.1);
+}
+#post{
+	width: 1000px;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lobster Two', cursive;
+	font-size: 25px;
+}
+#post1{
+	width:400px;
+	padding:50px;
+	float:left;
+	transition: all 1s;
+}
+#post2{
+	width: 400px;
+	padding:50px;
+	float:right;
+	transition: all 1s;
+}
+#post2:hover{
+	transform: scale(1.1);
+}
+#post1:hover{
+	transform: scale(1.1);
+}
+hr{
+	height: 5px;
+	color: red;
+}

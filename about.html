@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Orbitron|Satisfy" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="about_main.css">
+</head>
+<body id="gradient">
+	<h1>About us</h1>
+	<input id="color1" type="color" name="color1" value="#00ff00">
+	<input id="color2" type="color" name="color2" value="#ff0000"><br><br>
+	<div id="content">
+		<div id="nav">
+			<p><a href="index.html">Home</a></p>
+			<p><a href="posts.html">My Posts</a></p>
+			<p><a href="social_.html">Social</a></p>
+		</div>
+		<div id="main">
+			<p>Our team of dedicated members work day and night so that you could be great. I know greatness can't be generated through single line of motivating words. Yet, the same could build it in small amounts. But, greatness ia all that is within you. All we have to do is brush your skills and confidence so that you could be great. So that you could be original and unique. Talking of original and unique, why do all of us have to see the same background while it may be possible that you didn't like the background I gave it. <b>So, there are 2 buttons on the top of the page, click them, select a color and then 'ok' in both the buttons. Then, don't compromise with my color choice. It's your device, your choice.</b></p>
+			<img src="we.png">
+			<p>Also these are just small things, we are about you. We even got our blog and facebook page. The link to facebook page is in the <a href="social_.html"> SOCIAL </a>webpage. Also you could <a href="https://nohobbiesblog.wordpress.com/">click here</a> to go to our blog. Well for the rest you could mail us at dm22486@gmail.com. We hope you enjoy your journey and we wish best of luck to you. Join us in the revolution, keep reading our blogs, keep exploring. </p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var color1 = document.getElementById("color1");
+		console.log(color1.value);
+		var color2 = document.getElementById("color2");
+		console.log(color2.value);
+		var body = document.getElementById("gradient");
+
+		function setGradient() {
+			body.style.background = 
+			"linear-gradient(to right, " 
+			+ color1.value 
+			+ ", " 
+			+ color2.value 
+			+ ")";
+		}
+		color1.addEventListener("input", setGradient);
+
+		color2.addEventListener("input", setGradient);	
+	</script>
+</body>
+</html>

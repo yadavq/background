@@ -1,0 +1,31 @@
+body{
+	background:linear-gradient(to right, #ed8edb , #60266d);
+	display: flex;
+	flex-wrap: wrap; 
+}
+h1{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nav{
+	width:150px;
+	float:left;
+	font-size: 30px;
+	font-family: 'Satisfy', cursive;
+}
+#main{
+	width: 820px;
+	float:right;
+	font-size: 25px;
+	font-family: 'Caveat', cursive;
+	background-color: #ff6df0;
+}

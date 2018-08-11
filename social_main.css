@@ -1,0 +1,48 @@
+body{
+	display: flex;
+	flex-wrap: wrap; 
+	background:linear-gradient(to right, blue, orange);
+}
+h1{
+	font-family: 'Ultra', serif;
+	font-size: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nav{
+	width:150px;
+	float:right;
+	font-size: 30px;
+	font-family: 'Satisfy', cursive;
+	background-color: #f9f977;
+	padding:20px;
+}
+#main{
+	width: 800px;
+	float:left;
+	font-size: 25px;
+	font-family: 'Libre Barcode 128 Text', cursive;
+}
+#fb{
+	background-color: #196ed1;
+	height: 500px;
+	font-size: 50px;
+}
+#insta{
+	background-color: #e2560f;
+	height: 500px;
+	font-size: 50px;
+}
+img{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+}

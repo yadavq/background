@@ -1,0 +1,65 @@
+body{
+	display: flex;
+	flex-wrap: wrap; 
+}
+h1{
+	font-family: 'Monoton', cursive;
+	font-size: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#nav{
+	width:1000px;
+	padding:30px;
+	font-size:25px;
+	margin:auto;
+	background-color: #edb265;
+	padding-bottom: 20px;
+	font-family: 'Satisfy', cursive;
+}
+.posts{
+	width:200px;
+	float: left;
+}
+.about{
+	width:300px;
+	float: right;
+}
+.social{
+	width:300px;
+	float:right;
+}
+#post{
+	width: 1000px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Merienda', cursive;
+	font-size: 25px;
+	background: linear-gradient(to right, white , yellow);
+	padding:20px;
+}
+#post1{
+	width:400px;
+	padding:50px;
+	float:left;
+	transition: all 1s;
+}
+#post2{
+	width: 400px;
+	padding:50px;
+	float:right;
+	transition: all 1s;
+}
+#post2:hover{
+	transform: scale(1.1);
+}
+#post1:hover{
+	transform: scale(1.1);
+}
+hr{
+	height: 5px;
+	color: red;
+}
